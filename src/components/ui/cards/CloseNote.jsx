@@ -1,9 +1,17 @@
 import React from "react";
 import Tag from "./Tag";
 
+import { useNavigate } from "react-router-dom";
+
 function CloseNote({ title = "", date = "", tagText = "" }) {
+  const navigate = useNavigate();
+  const goTo = () => {
+    navigate("/opennote");
+  };
   return (
-    <div className="w-full flex flex-col gap-3.5 p-2 border-b border-neutral-800 cursor-pointer">
+    <div 
+    onClick={goTo}
+    className="w-full flex flex-col gap-3.5 p-2 border-b border-neutral-800 cursor-pointer">
       <p className="text-[16px] font-[Inter] font-semibold leading-[120%] text-white text-left tracking-[-0.3px]">{title}</p>
       <div className="flex flex-row gap-2">
         <Tag text="Dev" />
