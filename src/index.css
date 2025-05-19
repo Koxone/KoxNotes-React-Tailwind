@@ -4,3 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body, html {
+    @apply bg-neutral-800;
+}
+
+body, html {
+    background-color: neutral-800;
+}
