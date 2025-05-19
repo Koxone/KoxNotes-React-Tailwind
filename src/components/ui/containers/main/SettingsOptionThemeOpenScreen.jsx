@@ -3,7 +3,7 @@ import GoBackButton from "../../buttons/GoBackButton";
 import MainTitle from "../../text/main/MainTitle";
 import SettingsOptionCard from "../../cards/SettingsOptionCard";
 import MainButton from "../../buttons/mainButton";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 import NavBar from "../../nav/NavBar";
 
 function SettingsOptionThemeOpenScreen({  }) {
