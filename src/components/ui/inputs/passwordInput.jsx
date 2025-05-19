@@ -1,13 +1,13 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 function PasswordInput({ text = "", className = "", forgot = "", atLeast = "" }) {
   return (
     <div className="flex flex-col gap-1.5 w-full">
       <div className="flex flex-row justify-between items-center">
         <p className="text-white text-sm font-medium leadin-[1.2] font-[Inter] tracking-[-0.2px] text-left">{text}</p>
-        <a href="/forgot" className={`text-neutral-400 text-[12px] text-right ${forgot ? "visible" : "invisible"}`}>
+        <Link to="/forgotpassword" className={`text-neutral-400 text-[12px] text-right ${forgot ? "visible" : "invisible"}`}>
           {forgot}
-        </a>
+        </Link>
       </div>
       <div className="w-full relative">
         <img

@@ -9,6 +9,8 @@ import SocialButton from "../../buttons/SocialButton";
 import Header from "../../header/header";
 import NavBar from "../../nav/NavBar";
 
+import { useNavigate } from "react-router-dom";
+
 function ForgotPasswordScreen({ className = "" }) {
   return (
     <div className="w-full h-full flex flex-col justify-center items-center">

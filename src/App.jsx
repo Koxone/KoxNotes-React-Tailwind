@@ -61,11 +61,11 @@ const router = createBrowserRouter([
     element: <SettingsScreen />,
   },
   {
-    path: "/settings/:theme",
+    path: "/theme",
     element: <SettingsOptionThemeOpenScreen />,
   },
   {
-    path: "/settings/:font",
+    path: "/font",
     element: <SettingsOptionFontOpenScreen />,
   },
   {

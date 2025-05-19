@@ -7,6 +7,8 @@ import PasswordInput from "../../inputs/passwordInput";
 import MainLogo from "../../logo/MainLogo";
 import SocialButton from "../../buttons/SocialButton";
 
+import { Link } from "react-router-dom";
+
 function SignUpScreen({ className = "" }) {
   return (
     <div
@@ -27,9 +29,9 @@ function SignUpScreen({ className = "" }) {
       />
       <SocialButton>
         Already have an account?{" "}
-        <a href="/login" className="text-blue-400">
+        <Link to="/login" className="text-blue-400">
           Login
-        </a>
+        </Link>
       </SocialButton>
     </div>
   );

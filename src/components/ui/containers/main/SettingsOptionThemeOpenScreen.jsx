@@ -6,23 +6,13 @@ import MainButton from "../../buttons/mainButton";
 import Header from "../../header/header";
 import NavBar from "../../nav/NavBar";
 
-function SettingsOptionThemeOpenScreen({
-  title = "",
-  subtitle = "",
-  icon1 = "",
-  icon2 = "",
-  icon3 = "",
-  text1 = "",
-  text2 = "",
-  text3 = "",
-  styles = "",
-}) {
+function SettingsOptionThemeOpenScreen({  }) {
   return (
     <div className="w-full h-full flex flex-col justify-center items-center">
       <Header />
       <div className="flex flex-col gap-4 h-screen py-6 px-4 rounded-2xl bg-neutral-950">
         <GoBackButton text="Settings" />
-        <MainTitle text={title} styles="text-neutral-50 font-bold text-2xl mt-4 mb-4" subtitle={subtitle} />
+        <MainTitle text="Color Theme" styles="text-neutral-50 font-bold text-2xl mt-4 mb-4" subtitle="Choose your color theme:" subtitleStyles="text-white" />
         <SettingsOptionCard
           icon="sun"
           mode="darkMode"
