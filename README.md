@@ -2,13 +2,15 @@
 
 KoxNotes is a modern note-taking and organization application built with React, Vite, and Tailwind CSS.
 
-## 📋 Features
+## Features
 
-- Clean, minimalist interface for a smooth user experience
-- Organize notes with tags and categories
-- Light/dark mode for different preferences and environments
-- Responsive design optimized for mobile and desktop devices
-- Local data persistence to keep your notes safe
+- 📝 Create, edit, and delete notes
+- 🔍 Search and filter notes
+- 🔐 User authentication (login/register)
+- 💾 Local storage persistence
+- 🎨 Clean, responsive UI with Tailwind CSS
+- ✨ Interactive UI with animations
+- 🛡️ Protected routes for authenticated users
 
 ## 🚀 Technologies
 
