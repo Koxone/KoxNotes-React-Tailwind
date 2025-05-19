@@ -14,9 +14,9 @@ KoxNotes is a modern note-taking and organization application built with React, 
 
 ## 🚀 Technologies
 
-- **React** - JavaScript library for building user interfaces
-- **Vite** - Ultra-fast build tool for modern development
-- **Tailwind CSS** - Utility-first CSS framework for rapid design
+- **⚛️ React** - JavaScript library for building user interfaces
+- **⚡ Vite** - Ultra-fast build tool for modern development
+- **🌊 Tailwind CSS** - Utility-first CSS framework for rapid design
 - **LocalStorage** - Browser-based persistent storage
 
 ## 🔧 Installation
