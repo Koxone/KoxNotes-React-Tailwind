@@ -4,7 +4,7 @@ import CloseNote from "../../cards/CloseNote";
 import NavBar from "../../nav/NavBar";
 import Empty from "../../../../modals/Empty";
 import MainSubtitle from "../../text/main/MainSubtitle";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 
 function ArchivedNotesScreen() {
   return (

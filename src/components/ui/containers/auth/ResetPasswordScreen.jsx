@@ -6,7 +6,7 @@ import SubtitleAuth from "../../text/auth/subtitle";
 import PasswordInput from "../../inputs/passwordInput";
 import MainLogo from "../../logo/MainLogo";
 import SocialButton from "../../buttons/SocialButton";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 import NavBar from "../../nav/NavBar";
 
 function ResetPasswordScreen({ className = "" }) {

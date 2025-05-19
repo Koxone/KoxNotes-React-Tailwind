@@ -2,7 +2,7 @@ import React from "react";
 import OpenNoteHeader from "../../header/OpenNoteHeader";
 import NewNoteInfoCard from "../../cards/NewNoteInfoCard";
 import NoteTextArea from "../../inputs/NoteTextArea";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 import NavBar from "../../nav/NavBar";
 
 function NewNoteScreen() {

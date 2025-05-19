@@ -4,7 +4,7 @@ import GoBackButton from "../../buttons/GoBackButton";
 import GeneralPasswordInput from "../../inputs/GeneralPasswordInput";
 import MainButton from "../../buttons/mainButton";
 import InputMessage from "../../text/general/InputMessage";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 import NavBar from "../../nav/NavBar";
 
 function ChangePasswordScreen() {

@@ -6,7 +6,7 @@ import MainTitle from "../../text/main/MainTitle";
 import AllNotesContainer from "./AllNotesContainer";
 import SearchInput from "../../inputs/SearchInput";
 import NavBar from "../../nav/NavBar";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 
 function SearchScreen() {
   return (

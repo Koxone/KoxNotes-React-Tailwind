@@ -3,7 +3,7 @@ import OpenNoteHeader from "../../header/OpenNoteHeader";
 import MainTitle from "../../text/main/MainTitle";
 import OpenNoteInfoCard from "../../cards/OpenNoteInfoCard";
 import NoteTextArea from "../../inputs/NoteTextArea";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 import NavBar from "../../nav/NavBar";
 
 function OpenNoteScreen() {

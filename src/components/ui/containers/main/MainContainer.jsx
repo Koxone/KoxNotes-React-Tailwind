@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 import MainScreen from "./MainScreen";
 import NavBar from "../../nav/NavBar";
 import OpenNote from "./OpenNoteScreen";

@@ -2,7 +2,7 @@ import React from "react";
 import CloseTagListCard from "../../cards/CloseTagListCard";
 import MainTitle from "../../text/main/MainTitle";
 import Empty from "../../../../modals/Empty";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 import NavBar from "../../nav/NavBar";
 
 function TagsListScreen() {

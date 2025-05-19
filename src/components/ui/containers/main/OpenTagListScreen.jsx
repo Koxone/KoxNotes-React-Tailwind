@@ -4,7 +4,7 @@ import MainTagsTitle from "../../text/main/MainTagsTitle";
 import GoBackButton from "../../buttons/GoBackButton";
 import MainTitle from "../../text/main/MainTitle";
 import AllNotesContainer from "./AllNotesContainer";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 import NavBar from "../../nav/NavBar";
 
 function OpenTagListScreen() {
