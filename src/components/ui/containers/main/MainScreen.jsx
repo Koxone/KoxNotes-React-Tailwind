@@ -3,7 +3,7 @@ import MainTitle from "../../text/main/MainTitle";
 import NavBar from "../../nav/NavBar";
 import Empty from "../../../../modals/Empty";
 import AllNotesContainer from "./AllNotesContainer";
-import Header from "../../header/Header.jsx";
+import Header from "../../header/Header";
 import NewNoteButton from "../../buttons/NewNoteButton";
 
 function MainScreen() {
