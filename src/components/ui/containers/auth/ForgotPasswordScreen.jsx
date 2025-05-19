@@ -6,18 +6,23 @@ import SubtitleAuth from "../../text/auth/subtitle";
 import PasswordInput from "../../inputs/passwordInput";
 import MainLogo from "../../logo/MainLogo";
 import SocialButton from "../../buttons/SocialButton";
+import Header from "../../header/header";
+import NavBar from "../../nav/NavBar";
 
 function ForgotPasswordScreen({ className = "" }) {
   return (
-    <div
-      className={`${className} bg-neutral-950 w-full h-full rounded-2xl py-12 px-4 flex flex-col justify-center items-center gap-4`}
-    >
-      <MainLogo className="" />
-      <TitleAuth text="Forgotten your password?" />
-      <SubtitleAuth text="Enter your email below, and we’ll send you a link to reset it." />
-      <MailInput className="" text="Email Address" />
-      <MainButton text="Send Reset Link" 
-      styles="w-full"/>
+    <div className="w-full h-full flex flex-col justify-center items-center">
+      <Header />
+      <div
+        className={`${className} bg-neutral-950 w-full h-screen rounded-2xl py-12 px-4 flex flex-col items-center gap-4 overflow-hidden`}
+      >
+        <MainLogo className="" />
+        <TitleAuth text="Forgotten your password?" />
+        <SubtitleAuth text="Enter your email below, and we’ll send you a link to reset it." />
+        <MailInput className="" text="Email Address" />
+        <MainButton text="Send Reset Link" styles="w-full" />
+      </div>
+      <NavBar />
     </div>
   );
 }
