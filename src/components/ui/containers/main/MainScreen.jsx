@@ -1,10 +1,9 @@
 import React from "react";
 import MainTitle from "../../text/main/MainTitle";
-import CloseNote from "../../cards/CloseNote";
 import NavBar from "../../nav/NavBar";
 import Empty from "../../../../modals/Empty";
 import AllNotesContainer from "./AllNotesContainer";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 import NewNoteButton from "../../buttons/NewNoteButton";
 
 function MainScreen() {
