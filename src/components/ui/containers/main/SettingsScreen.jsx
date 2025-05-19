@@ -2,7 +2,7 @@ import React from "react";
 import MainTitle from "../../text/main/MainTitle";
 import SettingsCard from "../../cards/SettingsCard";
 import NavBar from "../../nav/NavBar";
-import Header from "../../header/header";
+import Header from "../../header/Header";
 
 function SettingsScreen() {
   return (
